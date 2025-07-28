@@ -12,8 +12,6 @@ const Home = () => {
   const getTopMovies = async (url) => {
     const response = await tmdb.get(url);
 
-    console.log(response.data.results);
-
     setTopMovies(response.data.results);
   }
   
