@@ -2,6 +2,9 @@ import { useEffect, useState } from "react"
 import tmdb from '../services/tmdb'
 import MovieCard from "../componentes/MovieCard";
 
+//CSS
+import './MovieGrid.css'
+
 const Home = () => {
   
   const [topMovies, setTopMovies] = useState([]);
